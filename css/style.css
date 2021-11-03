@@ -80,8 +80,11 @@
     /* background-color: gold; */
 }
 .title{
-    margin-top: 10px;
+    width: 1000px;
+    text-align: center;
+    /* margin-top: 10px; */
     z-index: 10;
+    margin: 0 auto;
 }
 .h3h3{
     font-size: large;
