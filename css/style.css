@@ -63,6 +63,9 @@
 .img-hand img {
     margin-right: 25px;
 }
+.img-hand p{
+    color: white;
+}
 .image-und{
     width: 600px;
     height: 250px;
@@ -115,6 +118,7 @@
     align-items: center;
     flex-direction: column;
     margin: 10px;
+    text-align: center;
 }
 .b1 h2 {
     font-size: 25px;
@@ -126,10 +130,19 @@
 }
 .pp{
     width: 100px;
-    height: 20px;
-    background-color: white;
-    border-radius: 10px;
+    height: 40px;
+    /* background-color: white; */
+    border: 2px solid white;
+    border-radius: 30px;
     margin-top: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pp:hover {
+    background-color: white;
+    color: black;
 }
 .b1:nth-child(1) {
     background-color: orange;
